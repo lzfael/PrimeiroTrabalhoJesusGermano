@@ -3,4 +3,33 @@ body{
     padding: 0;
     border: none;
 }
+.parteInicial{
+    display: flex;
+    flex-wrap: wrap;
 
+}
+.parteEsquerda{
+    background-color: black;
+    width: 50%;
+    height: 33,33%;
+    float: left;
+}
+.parteEsquerda img {
+    height: 500px;
+}
+.parteDireita{
+    display: flex;
+    width: 50%;
+    float: left;
+    flex-direction: column;
+}
+.nomeEmpresa{
+    background-color: aqua;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 47px;
+}
