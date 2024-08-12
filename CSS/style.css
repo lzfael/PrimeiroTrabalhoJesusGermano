@@ -1,35 +1,169 @@
-body{
+body {
     margin: 0;
     padding: 0;
     border: none;
+    font-family: Helvetica, sans-serif;
 }
-.parteInicial{
+
+.parteInicial {
+    background-color: black;
+    color: white;
+}
+
+.parteEsquerda img {
+    height: 600px;
+}
+
+.parteDireita {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.titulo {
+    margin-top: 15px;
+    font-size: 130px;
+    line-height: 120px;
+    margin-bottom: 35px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.btnReadMore {
+    background-color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 47px;
+    width: 150px;
 
 }
-.parteEsquerda{
-    background-color: black;
-    width: 50%;
-    height: 33,33%;
-    float: left;
-}
-.parteEsquerda img {
-    height: 500px;
-}
-.parteDireita{
-    display: flex;
-    width: 50%;
-    float: left;
-    flex-direction: column;
-}
-.nomeEmpresa{
-    background-color: aqua;
+
+.nomeEmpresa {
+    background-color: white;
+    color: black;
     padding: 10px;
-    width: 300px;
-    height: 50px;
+    width: 250px;
+    height: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 47px;
 }
+
+.nomeEmpresa img {
+    margin-bottom: 5px;
+    width: 35px;
+}
+
+.clientes {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+
+.whyclient {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+
+.whyclient h1 {
+    font-size: 150px;
+    margin: 0;
+    line-height: 140px;
+}
+
+
+.whyclient img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.comentarios {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.comentario {
+    margin-bottom: 20px;
+    border: solid 2px rgb(59, 58, 58);
+    width: 500px; /* Aumenta a largura dos comentários */
+    padding: 10px; /* Aumenta o padding para maior espaçamento interno */
+    align-items: center;
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 22px; /* Aumenta o tamanho da fonte para maior legibilidade */
+    line-height: 1.5; /* Ajusta o espaçamento entre linhas */
+}
+
+.perfil {
+    display: flex;
+    align-items: center; /* Alinha verticalmente a imagem e o texto */
+    justify-content: center;
+    margin-top: 15px; /* Adiciona margem superior para separar do texto */
+}
+
+.comentario hr {
+    border: solid 1px black;
+    width: 65%; /* Faz com que a linha horizontal ocupe toda a largura disponível *//* Adiciona margem vertical para espaçamento */
+}
+
+.perfil p {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 80px; /* Aumenta o tamanho da imagem */
+    height: 80px; /* Aumenta a altura da imagem */
+    margin-right: 15px; /* Adiciona margem à direita da imagem */
+}
+.namePerson{
+    font-size: 23px;
+}
+.subName {
+    font-style: italic;
+    font-size: 23px; /* Ajusta o tamanho da fonte da sub-name */
+}
+
+.pessoa {
+    display: block;
+    line-height: 5px; /* Ajusta o espaçamento entre as linhas */
+}
+.parteEsquerdaFinal{
+    background-image: url("/CSS/img/Testimonials\ Page\ Website\ \(3\).png");
+    height: 100%;
+    width: 100%;
+
+}
+.nomeEmpresaFinal{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 250px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 47px;
+}
+

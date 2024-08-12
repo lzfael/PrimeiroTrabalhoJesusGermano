@@ -1,0 +1,11 @@
+.parteInicial {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 140px;
+    padding: 90px;
+
+}
+
+.coluna {
+    padding: 20px;
+}
