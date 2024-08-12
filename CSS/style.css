@@ -11,34 +11,38 @@ body {
 }
 
 .parteEsquerda img {
-    height: 600px;
+    height: 750px;
 }
 
 .parteDireita {
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+
 }
 
 .titulo {
     margin-top: 15px;
-    font-size: 130px;
-    line-height: 120px;
+    font-size: 140px;
+    line-height: 130px;
+    margin-top: 80px;
     margin-bottom: 35px;
 }
 
 .subtitulo {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 
 .btnReadMore {
     background-color: white;
+    margin-top: 60px;
     padding: 15px;
     border: none;
     border-radius: 47px;
-    width: 150px;
+    height: 70px;
+    width: 350px;
+    font-size: 20px;
 
 }
 
