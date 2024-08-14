@@ -9,3 +9,23 @@
 .coluna {
     padding: 20px;
 }
+
+.final {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    height: 100vh; 
+}
+
+.parteEsquerdaFinal {
+    position: relative; 
+    background: url('/CSS/img/Testimonials\ Page\ Website\ \(3\).png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parteDireitaFinal {
+    background-color: black;
+    color: white; 
+}
