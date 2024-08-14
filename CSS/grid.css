@@ -12,12 +12,12 @@
 
 .final {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-    height: 100vh; 
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
 }
 
 .parteEsquerdaFinal {
-    position: relative; 
+    position: relative;
     background: url('/CSS/img/Testimonials\ Page\ Website\ \(3\).png') no-repeat center center;
     background-size: cover;
     display: flex;
@@ -27,5 +27,5 @@
 
 .parteDireitaFinal {
     background-color: black;
-    color: white; 
+    color: white;
 }

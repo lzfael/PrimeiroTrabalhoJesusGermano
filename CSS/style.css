@@ -104,17 +104,17 @@ body {
 .comentario {
     margin-bottom: 20px;
     border: solid 2px rgb(59, 58, 58);
-    width: 500px; 
-    padding: 10px; 
+    width: 500px;
+    padding: 10px;
     align-items: center;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .text {
     display: flex;
     justify-content: center;
-    font-size: 22px; 
-    line-height: 1.5; 
+    font-size: 22px;
+    line-height: 1.5;
 }
 
 .perfil {
@@ -126,7 +126,7 @@ body {
 
 .comentario hr {
     border: solid 1px black;
-    width: 65%; 
+    width: 65%;
 }
 
 .perfil p {
@@ -137,24 +137,26 @@ body {
 
 .perfil img {
     border-radius: 50%;
-    width: 80px; 
+    width: 80px;
     height: 80px;
-    margin-right: 15px; 
+    margin-right: 15px;
 }
-.namePerson{
+
+.namePerson {
     font-size: 23px;
 }
+
 .subName {
     font-style: italic;
-    font-size: 23px; 
+    font-size: 23px;
 }
 
 .pessoa {
     display: block;
-    line-height: 5px; 
+    line-height: 5px;
 }
 
-.nomeEmpresaFinal{
+.nomeEmpresaFinal {
     background-color: white;
     color: black;
     padding: 10px;
@@ -166,15 +168,16 @@ body {
     border-radius: 47px;
 }
 
-.parteDireitaFinal h1{
+.parteDireitaFinal h1 {
     font-size: 140px;
     line-height: 130px;
-    
+
 }
-.parteDireitaFinal{
+
+.parteDireitaFinal {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
